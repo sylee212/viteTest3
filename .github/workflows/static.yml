@@ -32,7 +32,7 @@ jobs:
       - name: Upload dist folder to Pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: viteTest3/dist
+          path: dist
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v1
